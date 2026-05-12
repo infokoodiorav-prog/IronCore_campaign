@@ -352,6 +352,7 @@ header {
   margin: auto;
 }
 .toote-kaart {
+  position: relative;
   background: #1c1c1c;
   border: 1px solid rgba(255, 45, 45, 0.1);
   border-radius: 14px;
@@ -417,6 +418,7 @@ header {
 }
 
 .save {
+  opacity: 0;
   position: absolute;
   top: 12px;
   right: 12px;
@@ -427,6 +429,11 @@ header {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  transform: translateY(-5px);
+  transition: all 0.25s ease;
+}
+.toote-kaart:hover .save {
+  opacity: 1;
 }
 
 /* Offer */
