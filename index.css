@@ -27,6 +27,13 @@ header {
 .logo-span {
   color: #ff2d2d;
 }
+.langbtn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
 .nav-btn {
   text-transform: capitalize;
   background: #ff2d2d;
@@ -205,6 +212,9 @@ header {
 .cta-btn2:hover {
   background-color: #bdbdbd;
   color: #0b0b0b;
+}
+.dontwait {
+  color: white;
 }
 
 /*Trust*/
@@ -447,7 +457,7 @@ header {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-.offer span {
+.offer-sub {
   color: #ff2d2d;
 }
 .offer p {
@@ -484,9 +494,6 @@ header {
   font-size: clamp(34px, 5vw, 60px);
   margin-bottom: 20px;
 }
-.cta span {
-  color: #ff2d2d;
-}
 .cta p {
   color: #aaa;
   margin-bottom: 35px;
@@ -505,6 +512,9 @@ header {
 .cta-btn:hover {
   border: 1px solid #ff2d2d;
   background-color: #0b0b0b;
+  color: #ff2d2d;
+}
+.next-time {
   color: #ff2d2d;
 }
 
